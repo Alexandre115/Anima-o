@@ -1,0 +1,85 @@
+body {
+    background-color: #f5f5dc;
+    background-image: url(https://st4.depositphotos.com/7677414/31255/i/450/depositphotos_312552322-stock-photo-athlete-running-track-stadium.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+
+}
+
+img {
+    width: 200px;
+    position: absolute;
+    /* definir a posição do Elemento*/
+    bottom: 5px;
+    animation: movimentocarro 4s infinite ease-in-out;
+    /*ease é a forma como o carro vai se movimentar*/
+
+}
+
+#imagem2 {
+    top: 570px;
+    height: 100px;
+    width: 200px;
+    /* position: absolute;  definir a posição do Elemento */
+    bottom: 5px;
+    animation: movimentocarro2 5s infinite ease-in-out;
+
+}
+
+#imagem3 {
+    top:485px;
+    height: 100px;
+    width: 200px;
+    /* position: absolute;  definir a posição do Elemento */
+    bottom: 5px;
+    animation: movimentocarro3 6s infinite ease-in-out;
+}
+
+@keyframes movimentocarro {
+    from {
+        /*início da animação*/
+        transform: translate(0, 0);
+    }
+
+    to {
+        /*para onde o carrinho vai*/
+        transform: translate(100vw, 0vh);
+
+
+    }
+
+
+}
+
+@keyframes movimentocarro2 {
+    from {
+        /*início da animação*/
+        transform: translate(0, 0);
+    }
+
+    to {
+        /*para onde o carrinho vai*/
+        transform: translate(100vw, 0vh);
+
+
+    }
+
+
+}
+
+@keyframes movimentocarro3 {
+    from {
+        /*início da animação*/
+        transform: translate(0, 0);
+    }
+
+    to {
+        /*para onde o carrinho vai*/
+        transform: translate(100vw, 0vh);
+
+
+    }
+
+
+}
